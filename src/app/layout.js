@@ -1,5 +1,5 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Inter } from 'next/font/google'
+import './globals.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +29,7 @@ export const metadata = {
       type: "image/png"
     }
   ],
-  themeColor: "#4a90e2",
+
 };
 
 export default function RootLayout({ children }) {
