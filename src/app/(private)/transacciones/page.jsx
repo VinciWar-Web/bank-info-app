@@ -1,8 +1,14 @@
+import { Box, Typography } from '@mui/material'
+import { DataTable } from './components/DataTable'
+
 
 export default function TransaccionesPage() {
   return (
-    <div>
-      <h1>Transacciones Page</h1>
-    </div>
-  );
+    <Box>
+      <Typography variant="h4">Listado de Transacciones</Typography>
+      
+      <DataTable />
+
+    </Box>
+  )
 }
