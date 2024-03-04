@@ -11,7 +11,7 @@ import { useSelector } from 'react-redux'
 
 export const DataTable = () => {
 
-    const { transactionsAll } = useSelector( (state) => state.transactionsReducer)
+    const { transactionsAll = [] } = useSelector( (state) => state.transactionsReducer)
 
     return (
         <>

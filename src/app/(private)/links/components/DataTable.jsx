@@ -14,7 +14,7 @@ import { ModalDeleteLink } from './ModalDeleteLink'
 import { ModalRegisterTransactions } from './ModalRegisterTransactions'
 import { ModalRegisterAccounts } from './ModalRegisterAccounts'
 
-export const DataTable = ({ dataLinks }) => {
+export const DataTable = ({ dataLinks = [] }) => {
 
     const [openAccounts, setOpenAccounts] = useState(false)
     const [openTransactions, setOpenTransactions] = useState(false)

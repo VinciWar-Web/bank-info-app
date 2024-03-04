@@ -11,7 +11,7 @@ import { useState } from 'react'
 import { ModalDeleteUser } from '@/app/components/ModalDeleteUser'
 import { useSession } from 'next-auth/react'
 
-export const DataTable = ({ dataUsers }) => {
+export const DataTable = ({ dataUsers = [] }) => {
 
     const { data: session } = useSession()
 

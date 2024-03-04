@@ -5,8 +5,6 @@ import { Alert, Box, Button, InputLabel, LinearProgress, MenuItem, Select, Snack
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
-import { signIn } from 'next-auth/react'
-
 export const UserFormRegister = () => {
 
     const [name, setName] = useState('')

@@ -11,7 +11,7 @@ import { ModalRegisterLink } from './ModalRegisterLink'
 import { useState } from 'react'
 
 
-export const DataTable = ({ dataBancks }) => {
+export const DataTable = ({ dataBancks = [] }) => {
 
     const [open, setOpen] = useState(false)
     const [institution, setInstitution] = useState('')

@@ -16,7 +16,7 @@ const initialState = {
 
 export const UserForm = () => {
 
-    const { myUser } = useSelector( (state) => state.myUserReducer )
+    const { myUser = [] } = useSelector( (state) => state.myUserReducer )
 
     const [valueData, setValueData] = useState(initialState)
     const [password, setPassword] = useState('')
